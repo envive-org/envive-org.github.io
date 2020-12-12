@@ -1,9 +1,12 @@
 ---
 permalink: /about/
-title: "About"
+title: "关于奕诊智能"
 ---
-关于
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+奕诊智能关联的公司：奕诊（上海）医疗咨询有限公司、上海易缜智能科技有限公司等。
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+奕诊智能专注于人工智能医疗服务应用，秉承以三甲医院为依托，基层医疗为重点，以改革创新为动力，以人工智能为手段的发展策略，在三甲医院提供医生助手功能，提高诊疗效率；为基层医生赋能“AI医疗大脑”，辅助精确诊断。
+
+本公司聚集了众多斯坦福大学/硅谷计算机和AI专家，投入上亿元资金，经过十余年的潜心研究，综合采用大数据机器学习、强化深度学习，以及NLP等多种人工智能技术，打造了全世界唯一正式在医院使用的“奕诊人工智能全专科辅助诊疗系统”。目前系统已经在上海复旦大学附属中山医院徐汇医院、上海第十人民医院、杭州卫健委上线使用。
+
+展望未来，本司将把奕诊人工智能全专科辅助诊断系统与大数据、物联网、云计算等其它先进技术进一步融合，通过构建AI+医疗平台，推动人工智能在医疗健康领域的落地、升级，达成提升基层医院的诊疗水平，实现急慢分级，支持双向转诊，优化医疗资源的愿景，为全民健康做出应有的贡献。

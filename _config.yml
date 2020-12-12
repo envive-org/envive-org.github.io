@@ -13,26 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 奕诊智能打工人
-locale: zh-CN
+title: 奕诊智能
+url: "https://envive.org"
+baseurl: ""
+locale: "zh-CN"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  奕诊智能，即上海易缜智能科技有限公司，也即 奕诊（上海）医疗咨询有限公司，
+  是斯坦福大学跨人工智能、工程经济、计划管理三学门博士的戈家霖成功创立的八家高科技公司之一和之二。
+  奕诊智能的专家团队里包括美国斯坦福大学18位专科医生，11位专家，上海60余位医生，香港8位专家。
+#twitter_username: username
+github_username: yizhi2012
 minimal_mistakes_skin: dirt
 # minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-search: false
+search_provider: algolia
+search: true
+
+algolia:
+  application_id: 6P9B7RXG8C # YOUR_APPLICATION_ID
+  index_name: main # YOUR_INDEX_NAME
+  search_only_api_key: a3de07ad5ec55dcf82ef2142a28ab674 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Shanghai
 
@@ -63,19 +72,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "小奕"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "奕诊智能成功的见证人"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.envive.org/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://envive.org/"
 
 footer:
   links:
-    - label: "Home"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/envive-org/envive-org.github.io"
+    # - label: "Github"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/envive-org"
 
 defaults:
   # _posts
@@ -85,7 +94,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: false
       share: false
       related: true
@@ -95,7 +104,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid

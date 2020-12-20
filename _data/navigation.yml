@@ -3,3 +3,5 @@ main:
     url: /about/
   - title: "文章"
     url: /posts/
+  - title: "Demo"
+    url: https://demo.envive.org/

@@ -74,8 +74,8 @@ plugins:
 
 author:
   name   : "小奕"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "奕诊智能成功的见证人"
+  avatar : "/assets/images/reactai.jpg"
+  bio    : "奕诊智能成功的见证者"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
